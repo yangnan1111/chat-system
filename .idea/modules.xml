@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/chat-freeswitch.iml" filepath="$PROJECT_DIR$/.idea/chat-freeswitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coding-261/后端/im-muxin-netty/im-muxin-netty.iml" filepath="$PROJECT_DIR$/coding-261/后端/im-muxin-netty/im-muxin-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coding-261/后端/im-netty-hello/im-netty-hello.iml" filepath="$PROJECT_DIR$/coding-261/后端/im-netty-hello/im-netty-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coding-261/后端/im-netty-mybatis/im-netty-mybatis.iml" filepath="$PROJECT_DIR$/coding-261/后端/im-netty-mybatis/im-netty-mybatis.iml" />
+    </modules>
+  </component>
+</project>
