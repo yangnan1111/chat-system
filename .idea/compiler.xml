@@ -6,24 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="im-netty-mybatis" />
-        <module name="im-netty-hello" />
-        <module name="im-muxin-netty" />
+        <module name="freeswitch" />
+        <module name="imooc-muxin-netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="com-chat-hello" target="8" />
-      <module name="com-chat-mybatis" target="1.5" />
-      <module name="com-chat-netty" target="1.8" />
-      <module name="im-muxin-netty" target="1.8" />
-      <module name="im-netty-hello" target="8" />
-      <module name="im-netty-mybatis" target="1.5" />
+      <module name="freeswitch" target="8" />
+      <module name="imooc-muxin-netty" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="com-chat-netty" options="-parameters" />
-      <module name="im-muxin-netty" options="-parameters" />
+      <module name="imooc-muxin-netty" options="-parameters" />
     </option>
   </component>
 </project>

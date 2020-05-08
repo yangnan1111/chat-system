@@ -1,0 +1,373 @@
+2020-04-15 23:16:24.931 [ main ] - [ INFO  ] [client.inbound.Client : 102 ] - Connecting to /123.56.146.238:8021 ...
+2020-04-15 23:16:27.339 [ main ] - [ INFO  ] [client.inbound.Client : 134 ] - Connected to /123.56.146.238:8021
+2020-04-15 23:16:27.423 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=auth/request, headers=1, body=0 lines}]
+2020-04-15 23:16:27.470 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-15 23:16:27.592 [ main ] - [ INFO  ] [client.inbound.Client : 151 ] - Authenticated
+2020-04-15 23:16:27.631 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-15 23:16:27.682 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=api/response, headers=2, body=1 lines}]
+2020-04-15 23:16:27.702 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-15 23:16:27.703 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=text/disconnect-notice, headers=2, body=2 lines}]
+2020-04-15 23:16:27.703 [ nioEventLoopGroup-2-1 ] - [ INFO  ] [client.inbound.Client : 340 ] - Disconnected ...
+2020-04-15 23:16:38.694 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 8284 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-15 23:16:38.700 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-15 23:16:40.531 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-15 23:16:40.565 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-15 23:16:40.566 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-15 23:16:40.578 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-15 23:16:40.969 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-15 23:16:41.397 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-15 23:16:41.459 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-15 23:16:41.466 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-15 23:16:41.486 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-15 23:16:41.489 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-15 23:16:41.491 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-15 23:16:41.493 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-15 23:16:41.494 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-15 23:16:41.495 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-15 23:16:41.496 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-15 23:16:41.497 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-15 23:16:41.498 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-15 23:16:41.984 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-15 23:16:43.240 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-15 23:16:43.292 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-15 23:16:43.294 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-15 23:16:43.294 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-15 23:16:43.295 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@4ba89729
+2020-04-15 23:16:43.296 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-15 23:16:43.296 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-15 23:16:43.297 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-15 23:16:43.297 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-15 23:16:43.298 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@53ba45c1
+2020-04-15 23:16:45.592 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.701 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.728 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.733 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.737 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.740 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.743 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.746 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.748 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.751 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.754 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.757 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.762 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.765 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.767 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.770 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.772 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.775 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.778 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.780 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:45.781 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:16:46.476 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-15 23:16:46.478 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-15 23:16:46.516 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 8.246 seconds (JVM running for 9.778)
+2020-04-15 23:18:42.337 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 23:18:42.461 [ http-nio-8089-exec-1 ] - [ ERROR ] [o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.imooc.controller.UserController.mine(UserController.java:245)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 23:20:45.020 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 19056 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-15 23:20:45.023 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-15 23:20:46.165 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-15 23:20:46.176 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-15 23:20:46.177 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-15 23:20:46.181 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-15 23:20:46.298 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-15 23:20:46.428 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-15 23:20:46.447 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-15 23:20:46.448 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-15 23:20:46.454 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-15 23:20:46.456 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-15 23:20:46.456 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-15 23:20:46.457 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-15 23:20:46.457 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-15 23:20:46.457 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-15 23:20:46.457 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-15 23:20:46.457 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-15 23:20:46.457 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-15 23:20:46.703 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-15 23:20:47.794 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-15 23:20:47.820 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-15 23:20:47.821 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-15 23:20:47.822 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-15 23:20:47.822 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@49798e84
+2020-04-15 23:20:47.822 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-15 23:20:47.823 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-15 23:20:47.823 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-15 23:20:47.823 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-15 23:20:47.823 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@53ba45c1
+2020-04-15 23:20:49.269 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.343 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.353 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.354 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.355 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.356 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.357 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.358 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.359 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.359 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.360 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.361 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.362 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.362 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.363 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.364 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.364 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.365 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.365 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.366 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.367 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:20:49.772 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-15 23:20:49.773 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-15 23:20:49.790 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.125 seconds (JVM running for 6.294)
+2020-04-15 23:22:03.203 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 23:23:23.411 [ http-nio-8089-exec-4 ] - [ ERROR ] [o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.imooc.utils.FastDFSClient.uploadQRCode(FastDFSClient.java:64)
+	at com.imooc.service.impl.SmsServiceImpl.savephone(SmsServiceImpl.java:175)
+	at com.imooc.controller.ApiLoginController.nextStep(ApiLoginController.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 23:24:22.048 [ http-nio-8089-exec-5 ] - [ ERROR ] [o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.imooc.utils.FastDFSClient.uploadQRCode(FastDFSClient.java:64)
+	at com.imooc.service.impl.SmsServiceImpl.savephone(SmsServiceImpl.java:175)
+	at com.imooc.controller.ApiLoginController.nextStep(ApiLoginController.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 23:24:58.103 [ http-nio-8089-exec-3 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2020-04-15 23:24:58.469 [ http-nio-8089-exec-3 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2020-04-15 23:47:59.507 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 8352 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-15 23:47:59.515 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-15 23:48:02.282 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-15 23:48:02.294 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-15 23:48:02.295 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-15 23:48:02.300 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-15 23:48:02.596 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-15 23:48:02.799 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-15 23:48:02.832 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-15 23:48:02.836 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-15 23:48:02.846 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-15 23:48:02.847 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-15 23:48:02.849 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-15 23:48:02.850 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-15 23:48:02.850 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-15 23:48:02.850 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-15 23:48:02.851 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-15 23:48:02.851 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-15 23:48:02.851 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-15 23:48:03.472 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-15 23:48:04.916 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-15 23:48:04.992 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-15 23:48:04.994 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-15 23:48:04.995 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-15 23:48:04.997 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@e4d2696
+2020-04-15 23:48:04.998 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-15 23:48:04.998 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-15 23:48:04.999 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-15 23:48:04.999 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-15 23:48:05.000 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@78c5be7b
+2020-04-15 23:48:07.470 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-15 23:48:08.088 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-15 23:48:08.090 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-15 23:48:08.111 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 9.335 seconds (JVM running for 12.087)

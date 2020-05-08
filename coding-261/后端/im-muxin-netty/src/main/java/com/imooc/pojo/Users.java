@@ -20,8 +20,8 @@ public class Users {
     /**
      * 我的头像，如果没有默认给一张
      */
-    @Column(name = "face_image")
-    private String faceImage;
+//    @Column(name = "face_image")
+//    private String faceImage;
 
     @Column(name = "face_image_big")
     private String faceImageBig;
@@ -38,7 +38,12 @@ public class Users {
 
     private String cid;
 
-
+    private String age;
+    private String address;
+    private String profession;
+    private String signname;
+    private String background;
+    private String gender;
     /**
      * @return id
      */
@@ -84,18 +89,18 @@ public class Users {
      *
      * @return face_image - 我的头像，如果没有默认给一张
      */
-    public String getFaceImage() {
-        return faceImage;
-    }
-
-    /**
-     * 设置我的头像，如果没有默认给一张
-     *
-     * @param faceImage 我的头像，如果没有默认给一张
-     */
-    public void setFaceImage(String faceImage) {
-        this.faceImage = faceImage;
-    }
+//    public String getFaceImage() {
+//        return faceImage;
+//    }
+//
+//    /**
+//     * 设置我的头像，如果没有默认给一张
+//     *
+//     * @param faceImage 我的头像，如果没有默认给一张
+//     */
+//    public void setFaceImage(String faceImage) {
+//        this.faceImage = faceImage;
+//    }
 
     /**
      * @return face_image_big
@@ -161,5 +166,51 @@ public class Users {
         this.cid = cid;
     }
 
+    public String getAge() {
+        return age;
+    }
 
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getProfession() {
+        return profession;
+    }
+
+    public void setProfession(String profession) {
+        this.profession = profession;
+    }
+
+    public String getSignname() {
+        return signname;
+    }
+
+    public void setSignname(String signname) {
+        this.signname = signname;
+    }
+
+    public String getBackground() {
+        return background;
+    }
+
+    public void setBackground(String background) {
+        this.background = background;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 }

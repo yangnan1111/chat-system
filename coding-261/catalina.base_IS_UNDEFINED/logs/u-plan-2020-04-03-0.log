@@ -1,0 +1,238 @@
+2020-04-03 00:02:20.717 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 23988 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-03 00:02:20.727 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-03 00:02:22.429 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-03 00:02:22.441 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-03 00:02:22.442 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-03 00:02:22.448 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-03 00:02:22.619 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:02:22.778 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-03 00:03:25.596 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 12472 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-03 00:03:25.600 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-03 00:03:27.058 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-03 00:03:27.067 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-03 00:03:27.068 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-03 00:03:27.071 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-03 00:03:27.220 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:03:27.383 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-03 00:03:27.405 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-03 00:03:27.407 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-03 00:03:27.413 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-03 00:03:27.414 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-03 00:03:27.415 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-03 00:03:27.415 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-03 00:03:27.416 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-03 00:03:27.416 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-03 00:03:27.416 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-03 00:03:27.416 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-03 00:03:27.416 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-03 00:03:27.695 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-03 00:03:28.472 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-03 00:03:28.514 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-03 00:03:28.515 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-03 00:03:28.515 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-03 00:03:28.516 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@4f8b4bd0
+2020-04-03 00:03:28.516 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-03 00:03:28.516 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-03 00:03:28.517 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-03 00:03:28.517 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-03 00:03:28.518 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@1b0332ee
+2020-04-03 00:03:29.866 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.940 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.961 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.963 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.965 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.969 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.972 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.975 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.978 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:29.979 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:03:30.420 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-03 00:03:30.421 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-03 00:03:30.436 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.25 seconds (JVM running for 6.314)
+2020-04-03 00:04:01.586 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-03 00:04:01.755 [ http-nio-8089-exec-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:04:09.482 [ http-nio-8089-exec-2 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:04:19.334 [ http-nio-8089-exec-3 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:05:00.075 [ SchedulerFactory_Worker-1 ] - [ ERROR ] [org.quartz.core.JobRunShell : 211 ] - Job DEFAULT.freeswitch-18 threw an unhandled Exception: 
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.getCron(Unknown Source)
+	at com.imooc.pojo.FreeSwitchJob.execute(FreeSwitchJob.java:24)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 8 common frames omitted
+2020-04-03 00:05:00.076 [ SchedulerFactory_Worker-1 ] - [ ERROR ] [org.quartz.core.ErrorLogger : 2425 ] - Job (DEFAULT.freeswitch-18 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.getCron(Unknown Source)
+	at com.imooc.pojo.FreeSwitchJob.execute(FreeSwitchJob.java:24)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 8 common frames omitted
+2020-04-03 00:05:00.077 [ SchedulerFactory_Worker-2 ] - [ INFO  ] [client.inbound.Client : 102 ] - Connecting to localhost/127.0.0.1:8021 ...
+2020-04-03 00:05:00.108 [ SchedulerFactory_Worker-2 ] - [ INFO  ] [client.inbound.Client : 134 ] - Connected to localhost/127.0.0.1:8021
+2020-04-03 00:05:00.133 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=auth/request, headers=1, body=0 lines}]
+2020-04-03 00:05:00.139 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:05:00.359 [ SchedulerFactory_Worker-2 ] - [ INFO  ] [client.inbound.Client : 151 ] - Authenticated
+2020-04-03 00:05:00.368 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:05:00.371 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=api/response, headers=2, body=1 lines}]
+2020-04-03 00:05:00.374 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:05:00.374 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=text/disconnect-notice, headers=2, body=2 lines}]
+2020-04-03 00:05:00.374 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.Client : 340 ] - Disconnected ...
+2020-04-03 00:06:45.476 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 8200 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-03 00:06:45.478 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-03 00:06:47.040 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-03 00:06:47.047 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-03 00:06:47.048 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-03 00:06:47.051 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-03 00:06:47.208 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-03 00:06:47.363 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-03 00:06:47.382 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-03 00:06:47.384 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-03 00:06:47.389 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-03 00:06:47.389 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-03 00:06:47.390 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-03 00:06:47.391 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-03 00:06:47.391 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-03 00:06:47.391 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-03 00:06:47.392 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-03 00:06:47.392 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-03 00:06:47.392 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-03 00:06:47.661 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-03 00:06:48.420 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-03 00:06:48.448 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-03 00:06:48.449 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-03 00:06:48.449 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-03 00:06:48.450 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@21fdfefc
+2020-04-03 00:06:48.450 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-03 00:06:48.450 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-03 00:06:48.450 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-03 00:06:48.450 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-03 00:06:48.451 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@9a4b077
+2020-04-03 00:06:49.838 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:06:50.314 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-03 00:06:50.316 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-03 00:06:50.336 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.288 seconds (JVM running for 6.323)
+2020-04-03 00:09:44.023 [ http-nio-8089-exec-2 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-03 00:09:44.178 [ http-nio-8089-exec-2 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:10:00.075 [ SchedulerFactory_Worker-1 ] - [ INFO  ] [client.inbound.Client : 102 ] - Connecting to localhost/127.0.0.1:8021 ...
+2020-04-03 00:10:00.103 [ SchedulerFactory_Worker-1 ] - [ INFO  ] [client.inbound.Client : 134 ] - Connected to localhost/127.0.0.1:8021
+2020-04-03 00:10:00.120 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=auth/request, headers=1, body=0 lines}]
+2020-04-03 00:10:00.126 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:10:00.359 [ SchedulerFactory_Worker-1 ] - [ INFO  ] [client.inbound.Client : 151 ] - Authenticated
+2020-04-03 00:10:00.389 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:10:12.319 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=api/response, headers=2, body=1 lines}]
+2020-04-03 00:10:12.334 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:10:12.335 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=text/disconnect-notice, headers=2, body=2 lines}]
+2020-04-03 00:10:12.335 [ nioEventLoopGroup-6-1 ] - [ INFO  ] [client.inbound.Client : 340 ] - Disconnected ...
+2020-04-03 00:10:43.364 [ http-nio-8089-exec-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:11:00.048 [ SchedulerFactory_Worker-2 ] - [ ERROR ] [org.quartz.core.JobRunShell : 211 ] - Job DEFAULT.freeswitch-1 threw an unhandled Exception: 
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.getCron(Unknown Source)
+	at com.imooc.pojo.FreeSwitchJob.execute(FreeSwitchJob.java:24)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 8 common frames omitted
+2020-04-03 00:11:00.049 [ SchedulerFactory_Worker-2 ] - [ ERROR ] [org.quartz.core.ErrorLogger : 2425 ] - Job (DEFAULT.freeswitch-1 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy78.getCron(Unknown Source)
+	at com.imooc.pojo.FreeSwitchJob.execute(FreeSwitchJob.java:24)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 8 common frames omitted
+2020-04-03 00:11:05.653 [ http-nio-8089-exec-6 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:11:19.551 [ http-nio-8089-exec-7 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-03 00:12:00.031 [ SchedulerFactory_Worker-3 ] - [ INFO  ] [client.inbound.Client : 102 ] - Connecting to localhost/127.0.0.1:8021 ...
+2020-04-03 00:12:00.037 [ SchedulerFactory_Worker-3 ] - [ INFO  ] [client.inbound.Client : 134 ] - Connected to localhost/127.0.0.1:8021
+2020-04-03 00:12:00.038 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=auth/request, headers=1, body=0 lines}]
+2020-04-03 00:12:00.039 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:12:00.288 [ SchedulerFactory_Worker-3 ] - [ INFO  ] [client.inbound.Client : 151 ] - Authenticated
+2020-04-03 00:12:00.290 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:12:05.456 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=api/response, headers=2, body=1 lines}]
+2020-04-03 00:12:05.466 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=command/reply, headers=2, body=0 lines}]
+2020-04-03 00:12:05.467 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.InboundClientHandler : 108 ] - Received message: [EslMessage{contentType=text/disconnect-notice, headers=2, body=2 lines}]
+2020-04-03 00:12:05.467 [ nioEventLoopGroup-7-1 ] - [ INFO  ] [client.inbound.Client : 340 ] - Disconnected ...

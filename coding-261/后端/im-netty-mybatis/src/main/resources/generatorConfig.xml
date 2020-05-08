@@ -31,10 +31,9 @@
 <!--		<table tableName="users"></table>-->
 <!--		<table tableName="my_friends"></table>-->
 <!--		<table tableName="friends_request"></table>-->
-<!--		<table tableName="chat_msg"></table>-->
+		<table tableName="scheduled"></table>
 
 
 		 
     </context>
-</generatorConfiguration> <table tableName="sms_code"></table>
-<table tableName="sms_user"></table>
+</generatorConfiguration>

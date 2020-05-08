@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="web:WEB-INF:hibernate.cfg.xml/Hibernate" uuid="84a285a6-ca8b-4a9b-8b03-24be978f3801">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Yang/Desktop/coding-261-master/Test/web/WEB-INF/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/gojs</jdbc-url>
+    </data-source>
+  </component>
+</project>

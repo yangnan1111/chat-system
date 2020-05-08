@@ -8,7 +8,7 @@
 
 	<name>imooc-muxin-netty</name>
 	<description>imooc-muxin-netty</description>
-
+    <packaging>jar</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -27,6 +27,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.example</groupId>
+			<artifactId>freeswitch</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -126,5 +133,24 @@
 			<artifactId>hutool-all</artifactId>
 			<version>5.0.6</version>
 		</dependency>
+		<!-- quartz依赖 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>2.2.1</version>
+		</dependency>
 	</dependencies>
+
+	<build>
+	<plugins>
+		<plugin>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+		</plugin>
+	</plugins>
+	</build>
 </project>

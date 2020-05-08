@@ -1,0 +1,936 @@
+2020-04-27 15:11:22.073 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h55m8s318ms689µs400ns).
+2020-04-27 18:02:28.916 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m6s617ms208µs900ns).
+2020-04-27 18:28:36.226 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 2332 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 18:28:36.230 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 18:28:38.107 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 18:28:38.127 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 18:28:38.128 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 18:28:38.135 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 18:28:38.315 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 18:28:38.592 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 18:28:38.632 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 18:28:38.636 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 18:28:38.649 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 18:28:38.652 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 18:28:38.654 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 18:28:38.656 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 18:28:38.656 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 18:28:38.656 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 18:28:38.657 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 18:28:38.658 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 18:28:38.658 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 18:28:39.046 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 18:28:40.293 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 18:28:40.328 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 18:28:40.329 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 18:28:40.330 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 18:28:40.331 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@57adfab0
+2020-04-27 18:28:40.331 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 18:28:40.332 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 18:28:40.332 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 18:28:40.333 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 18:28:40.333 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@4c6f1124
+2020-04-27 18:28:42.686 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 18:28:43.386 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 18:28:43.391 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 18:28:43.469 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 7.664 seconds (JVM running for 9.323)
+2020-04-27 18:36:48.345 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 18:36:53.462 [ http-nio-8089-exec-1 ] - [ WARN  ] [com.zaxxer.hikari.pool.PoolBase : 173 ] - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@5a5d503e (No operations allowed after connection closed.)
+2020-04-27 18:36:58.469 [ http-nio-8089-exec-1 ] - [ WARN  ] [com.zaxxer.hikari.pool.PoolBase : 173 ] - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@5ec028ba (No operations allowed after connection closed.)
+2020-04-27 18:37:03.480 [ http-nio-8089-exec-1 ] - [ WARN  ] [com.zaxxer.hikari.pool.PoolBase : 173 ] - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@5055b9c (No operations allowed after connection closed.)
+2020-04-27 18:37:08.491 [ http-nio-8089-exec-1 ] - [ WARN  ] [com.zaxxer.hikari.pool.PoolBase : 173 ] - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@3086d90 (No operations allowed after connection closed.)
+2020-04-27 18:37:13.504 [ http-nio-8089-exec-1 ] - [ WARN  ] [com.zaxxer.hikari.pool.PoolBase : 173 ] - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@20a1727f (No operations allowed after connection closed.)
+2020-04-27 18:37:18.586 [ http-nio-8089-exec-1 ] - [ WARN  ] [com.zaxxer.hikari.pool.PoolBase : 173 ] - HikariPool-1 - Failed to validate connection com.mysql.jdbc.JDBC4Connection@2c41b109 (No operations allowed after connection closed.)
+2020-04-27 18:37:18.647 [ http-nio-8089-exec-1 ] - [ ERROR ] [o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30172ms.
+### The error may exist in com/imooc/mapper/UsersMapper.java (best guess)
+### The error may involve com.imooc.mapper.UsersMapper.selectOne
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30172ms.] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:918)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1198)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1193)
+	at com.mysql.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:5461)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy104.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy76.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy86.selectOne(Unknown Source)
+	at com.imooc.service.impl.UserServiceImpl.selectByPhone(UserServiceImpl.java:364)
+	at com.imooc.controller.ApiLoginController.passwordlogin(ApiLoginController.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-27 18:38:03.926 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 25472 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 18:38:03.932 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 18:38:05.230 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 18:38:05.238 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 18:38:05.238 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 18:38:05.241 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 18:38:05.336 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 18:38:05.473 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 18:38:05.505 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 18:38:05.507 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 18:38:05.519 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 18:38:05.521 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 18:38:05.523 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 18:38:05.524 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 18:38:05.524 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 18:38:05.524 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 18:38:05.525 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 18:38:05.525 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 18:38:05.525 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 18:38:06.014 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 18:38:06.831 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 18:38:06.892 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 18:38:06.894 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 18:38:06.895 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 18:38:06.896 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@99a78d7
+2020-04-27 18:38:06.897 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 18:38:06.897 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 18:38:06.898 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 18:38:06.899 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 18:38:06.899 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@6f453885
+2020-04-27 18:38:08.217 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 18:38:08.838 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 18:38:08.839 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 18:38:08.857 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.369 seconds (JVM running for 6.55)
+2020-04-27 18:38:13.935 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 18:39:34.654 [ http-nio-8089-exec-3 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2020-04-27 18:39:35.045 [ http-nio-8089-exec-3 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2020-04-27 19:04:40.596 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 22496 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 19:04:40.599 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 19:04:41.992 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:04:42.013 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 19:04:42.014 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 19:04:42.022 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 19:04:42.179 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 19:04:42.389 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 19:04:42.407 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:04:42.409 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 19:04:42.415 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:04:42.417 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:04:42.417 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:04:42.418 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:04:42.418 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 19:04:42.418 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:04:42.418 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 19:04:42.419 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 19:04:42.419 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 19:04:42.680 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 19:04:43.459 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 19:04:43.477 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:04:43.478 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:04:43.478 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:04:43.478 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@99a78d7
+2020-04-27 19:04:43.479 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:04:43.479 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:04:43.479 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 19:04:43.479 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:04:43.479 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@59389848
+2020-04-27 19:04:44.817 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 19:04:45.297 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:04:45.298 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 19:04:45.312 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.143 seconds (JVM running for 6.221)
+2020-04-27 19:09:42.595 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 8572 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 19:09:42.602 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 19:09:43.805 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:09:43.813 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 19:09:43.814 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 19:09:43.817 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 19:09:43.909 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 19:09:44.036 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 19:09:44.066 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:09:44.068 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 19:09:44.075 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:09:44.077 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:09:44.078 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:09:44.078 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:09:44.078 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 19:09:44.079 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:09:44.079 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 19:09:44.079 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 19:09:44.079 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 19:09:44.294 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 19:09:44.981 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 19:09:45.020 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:09:45.021 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:09:45.021 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:09:45.021 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@70242f38
+2020-04-27 19:09:45.021 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:09:45.021 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:09:45.022 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 19:09:45.022 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:09:45.022 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@347635f8
+2020-04-27 19:09:46.134 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 19:09:46.614 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:09:46.616 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 19:09:46.639 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.58 seconds (JVM running for 5.755)
+2020-04-27 19:09:55.968 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 19:14:09.690 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 20592 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 19:14:09.695 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 19:14:11.109 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:14:11.117 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 19:14:11.117 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 19:14:11.120 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 19:14:11.224 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 19:14:11.351 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 19:14:11.369 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:14:11.370 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 19:14:11.376 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:14:11.377 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:14:11.378 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:14:11.379 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:14:11.379 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 19:14:11.379 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:14:11.379 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 19:14:11.379 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 19:14:11.379 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 19:14:11.598 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 19:14:12.373 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 19:14:12.408 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:14:12.409 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:14:12.409 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:14:12.409 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@6be25526
+2020-04-27 19:14:12.410 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:14:12.410 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:14:12.410 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 19:14:12.410 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:14:12.410 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@59389848
+2020-04-27 19:14:13.862 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 19:14:14.296 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:14:14.297 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 19:14:14.312 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.115 seconds (JVM running for 6.276)
+2020-04-27 19:22:59.131 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 12528 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 19:22:59.136 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 19:23:00.382 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:23:00.390 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 19:23:00.390 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 19:23:00.393 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 19:23:00.491 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 19:23:00.613 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 19:23:00.632 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:23:00.634 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 19:23:00.641 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:23:00.643 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:23:00.643 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:23:00.644 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:23:00.644 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 19:23:00.644 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:23:00.645 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 19:23:00.645 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 19:23:00.645 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 19:23:00.876 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 19:23:01.637 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 19:23:01.685 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:23:01.687 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:23:01.687 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:23:01.688 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@51b1a8f6
+2020-04-27 19:23:01.688 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:23:01.688 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:23:01.689 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 19:23:01.689 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:23:01.689 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@4a859df8
+2020-04-27 19:23:03.159 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 19:23:03.566 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:23:03.567 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 19:23:03.581 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.833 seconds (JVM running for 6.232)
+2020-04-27 19:23:40.848 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 19:27:11.624 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 27348 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 19:27:11.628 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 19:27:13.438 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:27:13.447 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 19:27:13.447 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 19:27:13.450 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 19:27:13.553 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 19:27:13.675 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 19:27:13.699 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:27:13.701 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 19:27:13.709 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:27:13.711 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:27:13.712 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:27:13.713 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:27:13.714 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 19:27:13.714 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:27:13.714 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 19:27:13.714 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 19:27:13.714 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 19:27:13.975 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 19:27:14.745 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 19:27:14.786 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 19:27:14.787 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 19:27:14.788 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 19:27:14.788 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@66ba7e45
+2020-04-27 19:27:14.789 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 19:27:14.790 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 19:27:14.790 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 19:27:14.791 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 19:27:14.791 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@a34a943
+2020-04-27 19:27:16.015 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 19:27:16.447 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 19:27:16.448 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 19:27:16.464 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.281 seconds (JVM running for 6.4)
+2020-04-27 21:45:19.307 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 28508 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 21:45:19.314 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 21:45:20.558 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:45:20.566 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 21:45:20.566 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 21:45:20.569 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 21:45:20.669 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 21:45:20.787 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 21:45:20.803 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:45:20.805 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 21:45:20.810 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:45:20.811 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:45:20.812 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:45:20.812 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:45:20.813 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 21:45:20.813 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:45:20.813 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 21:45:20.813 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 21:45:20.814 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 21:45:21.036 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 21:45:21.764 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 21:45:21.789 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:45:21.789 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:45:21.790 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:45:21.790 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@6c298dc
+2020-04-27 21:45:21.790 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:45:21.790 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:45:21.790 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 21:45:21.790 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:45:21.791 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@1c4f4e4a
+2020-04-27 21:45:23.019 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 21:45:23.525 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:45:23.525 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 21:45:23.539 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.751 seconds (JVM running for 6.052)
+2020-04-27 21:46:13.453 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 17588 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 21:46:13.459 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 21:46:14.929 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:46:14.939 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 21:46:14.939 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 21:46:14.944 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 21:46:15.084 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 21:46:15.244 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 21:46:15.265 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:46:15.268 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 21:46:15.274 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:46:15.276 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:46:15.276 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:46:15.277 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:46:15.277 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 21:46:15.278 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:46:15.278 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 21:46:15.278 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 21:46:15.278 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 21:46:15.569 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 21:46:16.380 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 21:46:16.397 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:46:16.398 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:46:16.398 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:46:16.398 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@66ba7e45
+2020-04-27 21:46:16.398 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:46:16.399 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:46:16.399 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 21:46:16.399 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:46:16.399 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@1c4f4e4a
+2020-04-27 21:46:18.161 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 21:46:18.674 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:46:18.676 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 21:46:18.695 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.626 seconds (JVM running for 6.696)
+2020-04-27 21:46:31.012 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 21:48:56.977 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 2368 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 21:48:56.980 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 21:48:58.230 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:48:58.239 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 21:48:58.240 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 21:48:58.243 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 21:48:58.344 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 21:48:58.487 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 21:48:58.511 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:48:58.513 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 21:48:58.521 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:48:58.523 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:48:58.524 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:48:58.525 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:48:58.526 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 21:48:58.526 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:48:58.526 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 21:48:58.526 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 21:48:58.526 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 21:48:58.768 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 21:48:59.583 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 21:48:59.627 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:48:59.627 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:48:59.628 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:48:59.628 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@45adc393
+2020-04-27 21:48:59.629 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:48:59.629 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:48:59.629 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 21:48:59.629 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:48:59.630 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@bcaf432
+2020-04-27 21:49:01.021 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 21:49:01.444 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:49:01.445 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 21:49:01.461 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.878 seconds (JVM running for 7.145)
+2020-04-27 21:49:23.694 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 21:50:17.840 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s149ms709µs800ns).
+2020-04-27 21:53:54.573 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m36s733ms660µs900ns).
+2020-04-27 21:53:54.683 [ Thread-15 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-27 21:53:54.686 [ Thread-15 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-27 21:53:54.687 [ Thread-15 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-27 21:53:54.688 [ Thread-15 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-27 21:53:54.689 [ Thread-15 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - HikariPool-1 - Shutdown initiated...
+2020-04-27 21:53:54.698 [ Thread-15 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - HikariPool-1 - Shutdown completed.
+2020-04-27 21:53:55.004 [ localhost-startStop-2 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-27 21:53:55.005 [ localhost-startStop-2 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-27 21:53:55.005 [ localhost-startStop-2 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-27 21:53:55.005 [ localhost-startStop-2 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-27 21:53:59.585 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 23956 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 21:53:59.590 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 21:54:01.033 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:54:01.043 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 21:54:01.044 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 21:54:01.050 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 21:54:01.483 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 21:54:01.662 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 21:54:01.690 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:54:01.693 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 21:54:01.704 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:54:01.705 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:54:01.706 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:54:01.707 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:54:01.708 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 21:54:01.708 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:54:01.709 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 21:54:01.709 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 21:54:01.709 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 21:54:02.016 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 21:54:03.382 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 21:54:03.404 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:54:03.404 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:54:03.405 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:54:03.405 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@2d760326
+2020-04-27 21:54:03.405 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:54:03.405 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:54:03.406 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 21:54:03.406 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:54:03.406 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@2e014580
+2020-04-27 21:54:05.093 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 21:54:05.600 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:54:05.601 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 21:54:05.620 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 6.434 seconds (JVM running for 7.979)
+2020-04-27 21:54:18.892 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 21:54:51.803 [ Thread-18 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-27 21:54:51.806 [ Thread-18 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-27 21:54:51.806 [ Thread-18 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-27 21:54:51.807 [ Thread-18 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-27 21:54:51.808 [ Thread-18 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - HikariPool-1 - Shutdown initiated...
+2020-04-27 21:54:51.823 [ Thread-18 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - HikariPool-1 - Shutdown completed.
+2020-04-27 21:56:17.647 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 10216 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 21:56:17.651 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 21:56:18.788 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:56:18.796 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 21:56:18.796 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 21:56:18.799 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 21:56:18.888 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 21:56:19.010 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 21:56:19.036 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:56:19.037 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 21:56:19.045 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:56:19.047 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:56:19.048 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:56:19.048 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:56:19.049 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 21:56:19.049 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:56:19.049 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 21:56:19.049 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 21:56:19.049 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 21:56:19.268 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 21:56:20.117 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 21:56:20.133 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 21:56:20.134 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 21:56:20.134 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 21:56:20.134 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@2a389173
+2020-04-27 21:56:20.134 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 21:56:20.135 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 21:56:20.135 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 21:56:20.135 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 21:56:20.135 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@6e65e05a
+2020-04-27 21:56:21.263 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 21:56:21.770 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 21:56:21.771 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 21:56:21.786 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.629 seconds (JVM running for 5.626)
+2020-04-27 21:56:49.458 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 21:57:58.325 [ http-nio-8089-exec-9 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2020-04-27 21:57:58.558 [ http-nio-8089-exec-9 ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2020-04-27 22:07:53.855 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 6156 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 22:07:53.864 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 22:07:55.711 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 22:07:55.727 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 22:07:55.728 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 22:07:55.733 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 22:07:55.901 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 22:07:56.109 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 22:07:56.136 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 22:07:56.139 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 22:07:56.147 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 22:07:56.149 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 22:07:56.149 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 22:07:56.150 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 22:07:56.150 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 22:07:56.151 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 22:07:56.151 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 22:07:56.151 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 22:07:56.151 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 22:07:56.508 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 22:07:57.579 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 22:07:57.601 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 22:07:57.602 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 22:07:57.602 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 22:07:57.603 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@42e22a53
+2020-04-27 22:07:57.603 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 22:07:57.603 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 22:07:57.603 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 22:07:57.604 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 22:07:57.604 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@46995b72
+2020-04-27 22:07:58.976 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 22:07:59.447 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 22:07:59.449 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 22:07:59.464 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 6.07 seconds (JVM running for 7.847)
+2020-04-27 22:10:24.669 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 23:01:16.167 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 13716 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 23:01:16.174 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 23:01:17.948 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 23:01:17.959 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 23:01:17.959 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 23:01:17.963 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 23:01:18.086 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 23:01:18.245 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 23:01:18.268 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 23:01:18.270 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 23:01:18.276 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 23:01:18.277 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 23:01:18.278 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 23:01:18.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 23:01:18.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 23:01:18.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 23:01:18.280 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 23:01:18.280 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 23:01:18.280 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 23:01:18.597 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 23:01:19.509 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 23:01:19.525 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 23:01:19.526 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 23:01:19.526 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 23:01:19.526 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@109d724c
+2020-04-27 23:01:19.527 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 23:01:19.527 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 23:01:19.527 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 23:01:19.527 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 23:01:19.527 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@80faa8a
+2020-04-27 23:01:20.843 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 23:01:21.337 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 23:01:21.338 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 23:01:21.354 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.685 seconds (JVM running for 6.961)
+2020-04-27 23:04:47.664 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-27 23:04:47.767 [ http-nio-8089-exec-1 ] - [ ERROR ] [o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: java.io.FileNotFoundException: C:\Users\Yang200427HD5ZXN69YWwavface64.wav (拒绝访问。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:255)
+	at com.imooc.utils.FastWavUtil.WavUtil(FastWavUtil.java:20)
+	at com.imooc.controller.UserController.WavUrl(UserController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: C:\Users\Yang200427HD5ZXN69YWwavface64.wav (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:400)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120)
+	... 57 common frames omitted
+2020-04-27 23:18:26.485 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 14452 (started by Yang in C:\Users\Yang\Desktop\coding-261-master)
+2020-04-27 23:18:26.489 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-27 23:18:27.911 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-27 23:18:27.928 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-27 23:18:27.928 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-27 23:18:27.933 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-27 23:18:28.043 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-27 23:18:28.238 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-27 23:18:28.266 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 23:18:28.268 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-27 23:18:28.276 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 23:18:28.277 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 23:18:28.278 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 23:18:28.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 23:18:28.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-27 23:18:28.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 23:18:28.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-27 23:18:28.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-27 23:18:28.279 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-27 23:18:28.514 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-04-27 23:18:29.268 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-04-27 23:18:29.310 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-27 23:18:29.311 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-27 23:18:29.311 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-27 23:18:29.312 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@5af97169
+2020-04-27 23:18:29.313 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-27 23:18:29.313 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-27 23:18:29.313 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-27 23:18:29.313 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-27 23:18:29.314 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: com.imooc.config.SpringJobFactory@27506511
+2020-04-27 23:18:30.559 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-27 23:18:30.981 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-27 23:18:30.982 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-27 23:18:30.998 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.956 seconds (JVM running for 6.302)

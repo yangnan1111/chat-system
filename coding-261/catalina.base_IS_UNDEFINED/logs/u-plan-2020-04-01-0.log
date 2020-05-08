@@ -1,0 +1,638 @@
+2020-04-01 00:03:09.305 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 32748 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 00:03:09.313 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 00:03:10.750 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 00:03:10.759 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 00:03:10.759 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 00:03:10.763 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 00:03:10.887 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 00:03:12.399 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 00:03:13.119 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 00:03:13.523 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-01 00:03:13.524 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-01 00:03:13.542 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.627 seconds (JVM running for 5.723)
+2020-04-01 00:03:45.950 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 00:07:21.667 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 27076 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 00:07:21.673 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 00:07:23.195 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 00:07:23.205 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 00:07:23.206 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 00:07:23.210 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 00:07:23.372 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 00:07:24.922 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 00:07:25.795 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 00:07:26.229 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-01 00:07:26.230 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-01 00:07:26.245 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 4.949 seconds (JVM running for 6.145)
+2020-04-01 00:07:26.461 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 00:13:38.454 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 14128 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 00:13:38.459 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 00:13:40.091 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 00:13:40.099 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 00:13:40.099 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 00:13:40.102 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 00:13:40.236 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 00:13:42.134 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 00:13:42.835 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 00:13:43.263 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-01 00:13:43.264 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-01 00:13:43.280 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.333 seconds (JVM running for 6.682)
+2020-04-01 00:14:02.625 [ http-nio-8089-exec-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-01 10:54:14.055 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 15944 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 10:54:14.060 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 10:54:15.891 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 10:54:15.901 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 10:54:15.902 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 10:54:15.905 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 10:54:16.064 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 10:54:18.002 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 10:54:18.840 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 10:54:19.301 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-01 10:54:19.303 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-01 10:54:19.318 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.843 seconds (JVM running for 7.701)
+2020-04-01 10:55:23.039 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 29948 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 10:55:23.043 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 10:55:24.770 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 10:55:24.779 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 10:55:24.779 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 10:55:24.783 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 10:55:24.913 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 10:55:26.730 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 10:55:27.961 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 10:55:28.353 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-01 10:55:28.355 [ main ] - [ INFO  ] [org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2020-04-01 10:55:28.370 [ main ] - [ INFO  ] [com.imooc.Application : 59 ] - Started Application in 5.859 seconds (JVM running for 7.418)
+2020-04-01 16:17:52.625 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 33596 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 16:17:52.634 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 16:17:55.054 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 16:17:55.065 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 16:17:55.065 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 16:17:55.069 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 16:17:55.267 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:17:55.542 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 16:17:55.581 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:17:55.584 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 16:17:55.601 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:17:55.603 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:17:55.604 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:17:55.606 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:17:55.606 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 16:17:55.606 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:17:55.607 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 16:17:55.607 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 16:17:55.607 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 16:17:56.468 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 16:17:57.411 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 16:17:57.426 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:17:57.427 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:17:57.428 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:17:57.428 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@4c48fe92
+2020-04-01 16:17:57.428 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:17:57.429 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:17:57.429 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-01 16:17:57.429 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:17:57.431 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@670ce331
+2020-04-01 16:17:57.913 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-01 16:17:57.913 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:17:57.914 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:17:57.914 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - DatebookHikariCP - Shutdown initiated...
+2020-04-01 16:17:57.991 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - DatebookHikariCP - Shutdown completed.
+2020-04-01 16:17:57.992 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 16:17:57.995 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 16:17:57.995 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 16:17:57.995 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:17:57.996 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 16:17:57.997 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:57.998 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:57.999 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:57.999 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:58.000 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:58.000 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:58.000 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:58.001 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:58.002 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:17:58.003 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:31.464 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 7804 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 16:21:31.468 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 16:21:32.753 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 16:21:32.761 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 16:21:32.761 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 16:21:32.768 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 16:21:32.903 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:21:33.034 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 16:21:33.054 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:21:33.055 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 16:21:33.066 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:21:33.068 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:21:33.069 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:21:33.071 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:21:33.071 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 16:21:33.071 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:21:33.072 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 16:21:33.072 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 16:21:33.073 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 16:21:33.706 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 16:21:34.381 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 16:21:34.399 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:21:34.399 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:21:34.400 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:21:34.400 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@6869a3b3
+2020-04-01 16:21:34.400 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:21:34.401 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:21:34.401 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-01 16:21:34.401 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:21:34.402 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@58ec7116
+2020-04-01 16:21:35.501 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-01 16:21:35.561 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 16:21:35.563 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 16:21:35.563 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 16:21:35.563 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:21:35.564 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 16:21:35.565 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.565 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.566 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.566 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.566 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.567 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.567 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.567 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.568 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.568 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:21:35.579 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:21:35.581 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-01 16:21:35.581 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:21:35.581 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:21:35.581 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - DatebookHikariCP - Shutdown initiated...
+2020-04-01 16:21:35.585 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - DatebookHikariCP - Shutdown completed.
+2020-04-01 16:22:34.369 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 5044 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 16:22:34.373 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 16:22:35.813 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 16:22:35.823 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 16:22:35.823 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 16:22:35.826 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 16:22:35.952 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:22:36.105 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 16:22:36.132 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:22:36.134 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 16:22:36.145 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:22:36.147 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:22:36.148 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:22:36.149 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:22:36.149 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 16:22:36.149 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:22:36.150 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 16:22:36.150 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 16:22:36.150 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 16:22:37.049 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 16:22:37.760 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 16:22:37.775 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:22:37.775 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:22:37.775 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:22:37.776 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@6869a3b3
+2020-04-01 16:22:37.776 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:22:37.776 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:22:37.776 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-01 16:22:37.776 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:22:37.778 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@58ec7116
+2020-04-01 16:22:38.978 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-01 16:22:39.138 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 16:22:39.140 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 16:22:39.140 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 16:22:39.140 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:22:39.141 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 16:22:39.142 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.142 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.143 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.143 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.144 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.144 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.145 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.145 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.146 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.146 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:22:39.161 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:22:39.164 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-01 16:22:39.165 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:22:39.166 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:22:39.166 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - DatebookHikariCP - Shutdown initiated...
+2020-04-01 16:22:39.175 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - DatebookHikariCP - Shutdown completed.
+2020-04-01 16:27:42.616 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 30964 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 16:27:42.621 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 16:27:44.367 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 16:27:44.377 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 16:27:44.378 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 16:27:44.383 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 16:27:44.536 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:27:44.762 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 16:27:44.785 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:27:44.787 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 16:27:44.797 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:27:44.799 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:27:44.800 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:27:44.801 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:27:44.801 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 16:27:44.801 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:27:44.802 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 16:27:44.802 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 16:27:44.802 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 16:27:45.529 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 16:27:46.259 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 16:27:46.299 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 16:27:46.300 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 16:27:46.300 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 16:27:46.301 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@cb03411
+2020-04-01 16:27:46.301 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 16:27:46.301 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 16:27:46.301 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-01 16:27:46.301 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 16:27:46.302 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5a00eb1e
+2020-04-01 16:27:47.520 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-01 16:27:47.733 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 16:27:47.738 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 16:27:47.738 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 16:27:47.739 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:27:47.739 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 16:27:47.742 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.743 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.745 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.746 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.748 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.748 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.749 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.750 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.750 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.751 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 16:27:47.782 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:27:47.785 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-01 16:27:47.786 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 16:27:47.787 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-01 16:27:47.788 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - DatebookHikariCP - Shutdown initiated...
+2020-04-01 16:27:47.813 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - DatebookHikariCP - Shutdown completed.
+2020-04-01 23:53:33.474 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 30772 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 23:53:33.482 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 23:53:35.342 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 23:53:35.352 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 23:53:35.353 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 23:53:35.356 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 23:53:35.503 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 23:53:35.712 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 23:53:35.731 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 23:53:35.733 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 23:53:35.743 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 23:53:35.745 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 23:53:35.746 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 23:53:35.746 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 23:53:35.747 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 23:53:35.747 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 23:53:35.747 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 23:53:35.747 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 23:53:35.747 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 23:53:36.410 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 23:53:37.285 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 23:53:37.300 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 23:53:37.301 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 23:53:37.301 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 23:53:37.301 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@36fcf6c0
+2020-04-01 23:53:37.302 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 23:53:37.302 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 23:53:37.302 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-01 23:53:37.302 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 23:53:37.303 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@713064e8
+2020-04-01 23:53:38.486 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-01 23:53:38.601 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 23:53:38.603 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 23:53:38.603 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 23:53:38.603 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 23:53:38.603 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 23:53:38.605 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.605 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.605 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.605 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.606 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.606 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.606 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.607 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.607 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.607 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:38.619 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 23:53:38.620 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-01 23:53:38.620 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 23:53:38.621 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-01 23:53:38.621 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - DatebookHikariCP - Shutdown initiated...
+2020-04-01 23:53:38.626 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - DatebookHikariCP - Shutdown completed.
+2020-04-01 23:53:46.240 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 10996 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 23:53:46.244 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 23:53:48.053 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 23:53:48.062 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 23:53:48.062 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 23:53:48.065 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 23:53:48.216 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 23:53:48.392 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 23:53:48.413 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 23:53:48.415 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 23:53:48.426 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 23:53:48.427 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 23:53:48.428 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 23:53:48.428 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 23:53:48.429 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 23:53:48.429 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 23:53:48.429 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 23:53:48.429 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 23:53:48.429 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 23:53:49.152 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2020-04-01 23:53:50.045 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2020-04-01 23:53:50.084 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 23:53:50.085 [ main ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 23:53:50.085 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 23:53:50.085 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.quartz.simpl.SimpleJobFactory@367b22e5
+2020-04-01 23:53:50.085 [ main ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 23:53:50.086 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SchedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 23:53:50.086 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'SchedulerFactory' initialized from an externally provided properties instance.
+2020-04-01 23:53:50.086 [ main ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 23:53:50.087 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 2311 ] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@732c9b5c
+2020-04-01 23:53:51.242 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED started.
+2020-04-01 23:53:51.370 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 23:53:51.372 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 23:53:51.373 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 23:53:51.373 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 23:53:51.373 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 23:53:51.375 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.375 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.376 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.376 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.377 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.378 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.378 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.378 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.379 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.379 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:53:51.395 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 23:53:51.397 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutting down.
+2020-04-01 23:53:51.397 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED paused.
+2020-04-01 23:53:51.397 [ main ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler SchedulerFactory_$_NON_CLUSTERED shutdown complete.
+2020-04-01 23:53:51.398 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 381 ] - DatebookHikariCP - Shutdown initiated...
+2020-04-01 23:53:51.404 [ main ] - [ INFO  ] [com.zaxxer.hikari.HikariDataSource : 383 ] - DatebookHikariCP - Shutdown completed.
+2020-04-01 23:59:55.916 [ main ] - [ INFO  ] [com.imooc.Application : 50 ] - Starting Application on LAPTOP-I2LEPVP6 with PID 25824 (started by Yang in C:\Users\Yang\Desktop\coding-261-master\coding-261)
+2020-04-01 23:59:55.921 [ main ] - [ INFO  ] [com.imooc.Application : 659 ] - No active profile set, falling back to default profiles: default
+2020-04-01 23:59:57.547 [ main ] - [ INFO  ] [org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-01 23:59:57.556 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2020-04-01 23:59:57.556 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-01 23:59:57.560 [ localhost-startStop-1 ] - [ INFO  ] [org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\New Folder\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Yang\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;.]
+2020-04-01 23:59:57.694 [ localhost-startStop-1 ] - [ INFO  ] [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2020-04-01 23:59:57.860 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 147 ] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2020-04-01 23:59:57.880 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1184 ] - Using default implementation for ThreadExecutor
+2020-04-01 23:59:57.882 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.SimpleThreadPool : 268 ] - Job execution threads will use class loader of thread: localhost-startStop-1
+2020-04-01 23:59:57.891 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-01 23:59:57.892 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 240 ] - Quartz Scheduler v.2.2.1 created.
+2020-04-01 23:59:57.893 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2020-04-01 23:59:57.894 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 305 ] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-04-01 23:59:57.894 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1339 ] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-04-01 23:59:57.894 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.impl.StdSchedulerFactory : 1343 ] - Quartz scheduler version: 2.2.1
+2020-04-01 23:59:57.895 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 575 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-04-01 23:59:57.895 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 199 ] - Scheduler has been started...
+2020-04-01 23:59:57.895 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 217 ] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2020-04-01 23:59:58.420 [ main ] - [ INFO  ] [org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2020-04-01 23:59:58.422 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 694 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-04-01 23:59:58.423 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 613 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-04-01 23:59:58.423 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.core.QuartzScheduler : 771 ] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-04-01 23:59:58.423 [ localhost-startStop-1 ] - [ INFO  ] [org.quartz.ee.servlet.QuartzInitializerListener : 264 ] - Quartz Scheduler successful shutdown.
+2020-04-01 23:59:58.425 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.425 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.426 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.427 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.427 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.428 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.428 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.429 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.430 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+2020-04-01 23:59:58.430 [ localhost-startStop-1 ] - [ WARN  ] [org.apache.catalina.loader.WebappClassLoaderBase : 180 ] - The web application [ROOT] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)

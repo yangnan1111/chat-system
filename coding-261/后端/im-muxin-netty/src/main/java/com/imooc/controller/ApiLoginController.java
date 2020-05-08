@@ -3,13 +3,18 @@ package com.imooc.controller;
 
 import com.aliyuncs.utils.StringUtils;
 import com.imooc.mapper.SmsCodeMapper;
+import com.imooc.mapper.UsersMapper;
+import com.imooc.mapper1.UserMapper;
+import com.imooc.pojo.FreeswitchUser;
 import com.imooc.pojo.SmsCode;
 import com.imooc.pojo.SmsUser;
 import com.imooc.pojo.Users;
 import com.imooc.service.SmsService;
 import com.imooc.service.SmsUserService;
+import com.imooc.service.UserService;
 import com.imooc.service.impl.SmsServiceImpl;
 import com.imooc.utils.IMoocJSONResult;
+import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,96 +25,128 @@ import java.util.Date;
 public class ApiLoginController {
     @Autowired
     private SmsService smsService;
+    @Autowired
+    private UserService userService;
 
     @Autowired
     private SmsCodeMapper smsCodeMapper;
 
-    /**
-     * 登录时填写手机号获取验证码
-     */
-    @PostMapping("/sendLoginSms")
-    public IMoocJSONResult sendLoginSms(@RequestParam String phone) {
-        SmsCode smsCode = smsService.selectByPhone(phone);
-        if (StringUtils.isEmpty(smsCode.getPhone())) {
-            throw new RuntimeException("手机号码不存在");
-        } else {
-            smsService.sendLoginSms(phone);
-            return IMoocJSONResult.ok("获取验证码成功");
-        }
-    }
+    @Autowired
+    private UsersMapper usersMapper;
+
+    @Autowired
+    private UserMapper userMapper;
 
     /**
-     * 注册时获取验证码
+     * 注册1
+     *
      * @param phone
      * @return
      */
     @PostMapping("/registerSend")
-    public IMoocJSONResult registerSend(@RequestParam String phone){
-        SmsCode smsCode=smsService.selectByPhone(phone);
-        if(smsCode==null){
-            smsService.registerSend(phone);
-            return IMoocJSONResult.ok("获取验证码成功");
-        }else{
-            return IMoocJSONResult.ok("用户名存在");
+    public IMoocJSONResult registerSend(@RequestParam String phone) {
+        Users users = userService.selectByPhone(phone);
+        SmsCode smsCode = smsService.select(phone);
+        if (users == null) {
+            if (smsCode == null) {
+                smsService.registerSend(phone);
+                return IMoocJSONResult.ok("获取验证码成功");
+            } else {
+                smsService.Sendnew(phone);
+                return IMoocJSONResult.ok("获取验证码成功");
+            }
+        } else {
+            smsService.forgetrpass(phone);
+            return IMoocJSONResult.ok("忘记密码");
         }
-}
+    }
+
+    /**
+     * 忘记密码的next
+     */
+    @PostMapping("/nextnext")
+    public IMoocJSONResult nextnext(@RequestParam String phone, @RequestParam String code) {
+        IMoocJSONResult iMoocJSONResult = smsService.verificationCode(phone, code);
+        if (iMoocJSONResult.isOK()) {
+            return IMoocJSONResult.ok("验证成功");
+        } else {
+            return IMoocJSONResult.errorMsg("验证失败");
+        }
+    }
+
+    /**
+     * 下一步
+     */
+    @PostMapping("/next")
+    public IMoocJSONResult nextStep(@RequestParam String phone, @RequestParam String code) {
+        IMoocJSONResult iMoocJSONResult = smsService.verificationCode(phone, code);
+        if (iMoocJSONResult.isOK()) {
+            Users users = userService.selectByPhone(phone);
+            if (users == null) {
+                smsService.savephone(phone);
+                return IMoocJSONResult.ok("验证成功");
+            } else {
+                smsService.updatephone(phone);
+
+                return IMoocJSONResult.ok("验证成功");
+            }
+        }
+         else {
+            return IMoocJSONResult.errorMsg("验证失败");
+        }
+
+    }
 
     /**
      * 注册
-     * @param phone
-     * @param code
+     *
      * @param password
      * @return
      */
     @PostMapping("/register")
-    public IMoocJSONResult register(@RequestParam String phone, @RequestParam String code, @RequestParam String password, @RequestBody(required = false) Users users){
-
-        try {
-            users.setNickname(phone);
-            users.setFaceImage("");
-            users.setFaceImageBig("");
-            smsService.register(phone,password,users);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        smsService.verificationCode(phone, code);
-            return IMoocJSONResult.ok("注册成功");
-
-    }
-
-    /**
-     * 验证码登录
-     * @param phone
-     * @param code
-     * @return
-     */
-    @PostMapping("/verylogin")
-    public IMoocJSONResult login(@RequestParam String phone,@RequestParam String code) {
+    public IMoocJSONResult register(@RequestParam String phone, @RequestParam String password) {
+        FreeswitchUser freeswitchUser = new FreeswitchUser();
+        Users users = new Users();
         SmsCode smsCode = new SmsCode();
         smsCode.setPhone(phone);
-        smsCode = smsCodeMapper.selectOne(smsCode);
-        Date expiredtime = smsCode.getExpiredtime();
-        if (expiredtime.before(new Date())) {
-            return IMoocJSONResult.errorMsg("验证码过期");
-        } else {
-            if (code.equals(smsCode.getCode())) {
-                return IMoocJSONResult.ok("登录成功");
-            } else {
-                return IMoocJSONResult.errorMsg("登录失敗");
-            }
-        }
+        users.setPhone(phone);
+        Sid sid = new Sid();
+        freeswitchUser.setId(sid.nextShort());
+        freeswitchUser.setPassword(password);
+        freeswitchUser.setUser(phone);
+        userMapper.insert(freeswitchUser);
+        Users users1 = usersMapper.selectOne(users);
+        SmsCode smsCode1 = smsCodeMapper.selectOne(smsCode);
+        smsService.register(phone, password, users1, smsCode1);
+        return IMoocJSONResult.ok("成功");
+
     }
+
 
     /**
      * 密码登录
+     *
      * @param phone
      * @param password
      * @return
      */
     @PostMapping("/passwordlogin")
-    public IMoocJSONResult passwordlogin(@RequestParam String phone,@RequestParam String password){
-        smsService.passwordlogin(phone,password);
-        return  IMoocJSONResult.ok("登录成功");
+    public IMoocJSONResult passwordlogin(@RequestParam String phone, @RequestParam String password) {
+        Users users=new Users();
+        users.setPhone(phone);
+        users=userService.selectByPhone(phone);
+        String id=users.getId();
+        if (users == null) {
+            return IMoocJSONResult.errorMsg("请注册");
+        } else {
+            IMoocJSONResult iMoocJSONResult = smsService.passwordlogin(phone, password);
+            if (iMoocJSONResult.isOK()) {
+                return IMoocJSONResult.ok(id);
+            } else {
+                return IMoocJSONResult.errorMsg("登陆失败");
+            }
+        }
     }
+
 
 }

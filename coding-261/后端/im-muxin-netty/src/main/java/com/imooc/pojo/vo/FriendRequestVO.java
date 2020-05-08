@@ -5,17 +5,11 @@ package com.imooc.pojo.vo;
  */
 public class FriendRequestVO {
 	
-    private String sendUserId;
+    private String sendId;
     private String sendPhone;
     private String sendFaceImage;
     private String sendNickname;
-    
-	public String getSendUserId() {
-		return sendUserId;
-	}
-	public void setSendUserId(String sendUserId) {
-		this.sendUserId = sendUserId;
-	}
+
 	public String getSendPhone() { return sendPhone; }
 	public void setSendPhone(String sendPhone) { this.sendPhone = sendPhone; }
 	public String getSendFaceImage() {
@@ -29,5 +23,13 @@ public class FriendRequestVO {
 	}
 	public void setSendNickname(String sendNickname) {
 		this.sendNickname = sendNickname;
+	}
+
+	public String getSendId() {
+		return sendId;
+	}
+
+	public void setSendId(String sendId) {
+		this.sendId = sendId;
 	}
 }

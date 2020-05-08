@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
+import com.github.tobato.fastdfs.proto.storage.DownloadByteArray;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,9 +34,23 @@ public class FastDFSClient {
 	 */
 	public String uploadFile(MultipartFile file) throws IOException {
 		StorePath storePath = storageClient.uploadFile(file.getInputStream(), file.getSize(),
-				FilenameUtils.getExtension(file.getOriginalFilename()), null);
+				"wav", null);
 		
 		return storePath.getPath();
+	}
+	/**
+	 * 下载文件
+	 *
+	 * @param fileUrl 文件URL
+	 * @return 文件字节
+	 * @throws IOException
+	 */
+	public byte[] downloadFile(String fileUrl) throws IOException {
+		String group = fileUrl.substring(0, fileUrl.indexOf("/"));
+//		String path = fileUrl.substring(fileUrl.indexOf("/") + 1);
+		DownloadByteArray downloadByteArray = new DownloadByteArray();
+		byte[] bytes = storageClient.downloadFile("yang", fileUrl, downloadByteArray);
+		return bytes;
 	}
 	
 	public String uploadFile2(MultipartFile file) throws IOException {
@@ -60,8 +75,10 @@ public class FastDFSClient {
 	}
 	
 	public String uploadBase64(MultipartFile file) throws IOException {
+		String originalFilename = file.getOriginalFilename();
 		StorePath storePath = storageClient.uploadImageAndCrtThumbImage(file.getInputStream(), file.getSize(),
-				"png", null);
+				originalFilename.substring(originalFilename.lastIndexOf(".")+1), null);
+
 		
 		return storePath.getPath();
 	}

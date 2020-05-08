@@ -6,18 +6,18 @@
 			parameterType="String">
 		
 		select 
-			sender.id as sendUserId,
+			sender.id as sendId,
 			sender.phone as sendPhone,
-			sender.face_image as sendFaceImage,
+			sender.face_image_big as sendFaceImage,
 			sender.nickname as sendNickname
 		from
 			friends_request fr
 		left join 
 			users sender
 		on 
-			fr.send_user_id = sender.id
+			fr.send_phone = sender.phone
 		where 
-			fr.accept_user_id = #{acceptUserId}
+			fr.accept_phone = #{acceptPhone}
 	
 	</select>
 	
@@ -28,18 +28,32 @@
 		select 
 			u.id as friendUserId,
 			u.phone as friendPhone,
-			u.face_image as friendFaceImage,
+			u.face_image_big as friendFaceImage,
 			u.nickname as friendNickname
 		from
 			my_friends mf
 		left join 
 			users u
 		on 
-			u.id = mf.my_friend_user_id
+			u.phone = mf.my_friend_phone
 		where 
-			mf.my_user_id = #{userId}
+			mf.my_phone = #{phone}
 	
 	</select>
+
+	<select id="selectInfromation" resultType="com.imooc.pojo.vo.InformationVO"
+			parameterType="String">
+
+		select
+			age,address,profession,signname,background,nickname,face_image_big,gender
+		from
+			users
+		where
+			phone = #{phone}
+
+	</select>
+
+
 	
 	<!-- 批处理更新消息为已签收 -->
 	<update id="batchUpdateMsgSigned">
@@ -50,5 +64,8 @@
 		</foreach>
 	
 	</update>
+
+
+
 
 </mapper>

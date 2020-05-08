@@ -39,17 +39,17 @@ public class SmsServiceUtil {
     }
 
     public  static String getMsgCode() {
-        int n = 6;
+        int n = 7;
         StringBuilder code = new StringBuilder();
         Random ran = new Random();
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             code.append(Integer.valueOf(ran.nextInt(10)).toString());
         }
         return code.toString();
     }
 
     public static Date getExpireTime() {
-        return DateUtil.offsetMinute(new Date(), 5);
+        return DateUtil.offsetSecond(new Date(), 30);
     }
 
 }

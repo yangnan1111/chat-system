@@ -6,16 +6,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/coding-261/后端/imooc-muxin-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/coding-261/后端/imooc-muxin-netty/pom.xml" />
-        <option value="$PROJECT_DIR$/coding-261/后端/imooc-netty-hello/pom.xml" />
-        <option value="$PROJECT_DIR$/coding-261/后端/com-chat-netty/pom.xml" />
-        <option value="$PROJECT_DIR$/coding-261/后端/com-chat-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/freeswitch/pom.xml" />
         <option value="$PROJECT_DIR$/coding-261/后端/im-muxin-netty/pom.xml" />
-        <option value="$PROJECT_DIR$/coding-261/后端/im-netty-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/coding-261/后端/im-netty-hello/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

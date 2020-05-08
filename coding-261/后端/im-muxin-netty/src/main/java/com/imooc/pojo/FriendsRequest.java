@@ -8,11 +8,11 @@ public class FriendsRequest {
     @Id
     private String id;
 
-    @Column(name = "send_user_id")
-    private String sendUserId;
+    @Column(name = "send_phone")
+    private String sendPhone;
 
-    @Column(name = "accept_user_id")
-    private String acceptUserId;
+    @Column(name = "accept_phone")
+    private String acceptPhone;
 
     /**
      * 发送请求的事件
@@ -37,29 +37,29 @@ public class FriendsRequest {
     /**
      * @return send_user_id
      */
-    public String getSendUserId() {
-        return sendUserId;
+    public String getsendPhone() {
+        return sendPhone;
     }
 
     /**
-     * @param sendUserId
+     * @param sendPhone
      */
-    public void setSendUserId(String sendUserId) {
-        this.sendUserId = sendUserId;
+    public void setsendPhone(String sendPhone) {
+        this.sendPhone = sendPhone;
     }
 
     /**
      * @return accept_user_id
      */
-    public String getAcceptUserId() {
-        return acceptUserId;
+    public String getacceptPhone() {
+        return acceptPhone;
     }
 
     /**
-     * @param acceptUserId
+     * @param acceptPhone
      */
-    public void setAcceptUserId(String acceptUserId) {
-        this.acceptUserId = acceptUserId;
+    public void setacceptPhone(String acceptPhone) {
+        this.acceptPhone = acceptPhone;
     }
 
     /**

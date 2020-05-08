@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="yang@123.56.146.238" uuid="11997a4c-d9c4-4dcc-8449-503bdac7318c">
+    <data-source source="LOCAL" name="freeswitch@123.56.146.238" uuid="04518736-1402-4c6f-b5ec-b74e5a821c18">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://123.56.146.238:3306/freeswitch</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="yang@123.56.146.238" uuid="d95e8525-b6a2-486b-9683-f72e04ca9b91">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>

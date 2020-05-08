@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
+import com.imooc.pojo.vo.InformationVO;
+import com.imooc.utils.*;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,10 +30,6 @@ import com.imooc.pojo.Users;
 import com.imooc.pojo.vo.FriendRequestVO;
 import com.imooc.pojo.vo.MyFriendsVO;
 import com.imooc.service.UserService;
-import com.imooc.utils.FastDFSClient;
-import com.imooc.utils.FileUtils;
-import com.imooc.utils.JsonUtils;
-import com.imooc.utils.QRCodeUtils;
 
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
@@ -64,7 +62,10 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
 	private FastDFSClient fastDFSClient;
-	
+
+	@Autowired
+	private UserService userService;
+
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
 	public boolean queryUsernameIsExist(String phone) {
@@ -120,19 +121,80 @@ public class UserServiceImpl implements UserService {
 
 	@Transactional(propagation = Propagation.REQUIRED)
 	@Override
-	public Users updateUserInfo(Users user) {
-		userMapper.updateByPrimaryKeySelective(user);
-		return queryUserById(user.getId());
+	public IMoocJSONResult updateUserInfo(Users user) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(user.getPhone());
+		users1.setNickname(user.getNickname());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
 	}
-	
-	@Transactional(propagation = Propagation.SUPPORTS)
-	public Users queryUserById(String userId) {
-		return userMapper.selectByPrimaryKey(userId);
+
+	@Override
+	public IMoocJSONResult updateAge(Users user) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(user.getPhone());
+		users1.setAge(user.getAge());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
+	}
+
+	@Override
+	public IMoocJSONResult updateGender(Users user) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(user.getPhone());
+		users1.setGender(user.getGender());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
+	}
+
+	@Override
+	public IMoocJSONResult updateAddress(Users users) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(users.getPhone());
+		users1.setAddress(users.getAddress());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
+	}
+
+	@Override
+	public IMoocJSONResult updateProfession(Users users) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(users.getPhone());
+		users1.setProfession(users.getProfession());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
+	}
+
+	@Override
+	public IMoocJSONResult updateSignname(Users users) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(users.getPhone());
+		users1.setSignname(users.getSignname());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
+	}
+
+	@Override
+	public IMoocJSONResult updateface(Users users) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(users.getPhone());
+		users1.setFaceImageBig(users.getFaceImageBig());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
+	}
+
+	@Override
+	public IMoocJSONResult updatebackground(Users users) {
+		Users users1=new Users();
+		users1=userService.selectByPhone(users.getPhone());
+		users1.setBackground(users.getBackground());
+		userMapper.updateByPrimaryKey(users1);
+		return IMoocJSONResult.ok("修改成功");
 	}
 
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
-	public Integer preconditionSearchFriends(String myUserId, String friendPhone) {
+	public Integer preconditionSearchFriends(String myPhone, String friendPhone) {
 
 		Users user = queryUserInfoByPhone(friendPhone);
 		
@@ -142,15 +204,15 @@ public class UserServiceImpl implements UserService {
 		}
 		
 		// 2. 搜索账号是你自己，返回[不能添加自己]
-		if (user.getId().equals(myUserId)) {
+		if (user.getPhone().equals(myPhone)) {
 			return SearchFriendsStatusEnum.NOT_YOURSELF.status;
 		}
 		
 		// 3. 搜索的朋友已经是你的好友，返回[该用户已经是你的好友]
 		Example mfe = new Example(MyFriends.class);
 		Criteria mfc = mfe.createCriteria();
-		mfc.andEqualTo("myUserId", myUserId);
-		mfc.andEqualTo("myFriendUserId", user.getId());
+		mfc.andEqualTo("myPhone", myPhone);
+		mfc.andEqualTo("myFriendPhone", user.getPhone());
 		MyFriends myFriendsRel = myFriendsMapper.selectOneByExample(mfe);
 		if (myFriendsRel != null) {
 			return SearchFriendsStatusEnum.ALREADY_FRIENDS.status;
@@ -170,7 +232,7 @@ public class UserServiceImpl implements UserService {
 
 	@Transactional(propagation = Propagation.REQUIRED)
 	@Override
-	public void sendFriendRequest(String myUserId, String friendPhone) {
+	public void sendFriendRequest(String myPhone, String friendPhone) {
 		
 		// 根据用户名把朋友信息查询出来
 		Users friend = queryUserInfoByPhone(friendPhone);
@@ -178,16 +240,16 @@ public class UserServiceImpl implements UserService {
 		// 1. 查询发送好友请求记录表
 		Example fre = new Example(FriendsRequest.class);
 		Criteria frc = fre.createCriteria();
-		frc.andEqualTo("sendUserId", myUserId);
-		frc.andEqualTo("acceptUserId", friend.getId());
+		frc.andEqualTo("sendPhone", myPhone);
+		frc.andEqualTo("acceptPhone", friend.getPhone());
 		FriendsRequest friendRequest = friendsRequestMapper.selectOneByExample(fre);
 		if (friendRequest == null) {
 			// 2. 如果不是你的好友，并且好友记录没有添加，则新增好友请求记录
 			String requestId = sid.nextShort();
 			FriendsRequest request = new FriendsRequest();
 			request.setId(requestId);
-			request.setSendUserId(myUserId);
-			request.setAcceptUserId(friend.getId());
+			request.setsendPhone(myPhone);
+			request.setacceptPhone(friend.getPhone());
 			request.setRequestDateTime(new Date());
 			friendsRequestMapper.insert(request);
 		}
@@ -195,28 +257,48 @@ public class UserServiceImpl implements UserService {
 
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
-	public List<FriendRequestVO> queryFriendRequestList(String acceptUserId) {
-		return usersMapperCustom.queryFriendRequestList(acceptUserId);
+	public List<FriendRequestVO> queryFriendRequestList(String acceptPhone) {
+		return usersMapperCustom.queryFriendRequestList(acceptPhone);
 	}
+
+	@Transactional(propagation = Propagation.SUPPORTS)
+	@Override
+	public InformationVO selectInfromation(String phone) {
+		return usersMapperCustom.selectInfromation(phone);
+	}
+
+	@Override
+	public void saveInfo(Users users) {
+		String phone=users.getPhone();
+		Users users1=userService.selectByPhone(phone);
+		users1.setAge(users.getAge());
+		users1.setAddress(users.getAddress());
+		users1.setProfession(users.getProfession());
+		users1.setSignname(users.getSignname());
+		users1.setBackground(users.getBackground());
+		userMapper.updateByPrimaryKey(users1);
+
+	}
+
 
 	@Transactional(propagation = Propagation.REQUIRED)
 	@Override
-	public void deleteFriendRequest(String sendUserId, String acceptUserId) {
+	public void deleteFriendRequest(String sendPhone, String acceptPhone) {
 		Example fre = new Example(FriendsRequest.class);
 		Criteria frc = fre.createCriteria();
-		frc.andEqualTo("sendUserId", sendUserId);
-		frc.andEqualTo("acceptUserId", acceptUserId);
+		frc.andEqualTo("sendPhone", sendPhone);
+		frc.andEqualTo("acceptPhone", acceptPhone);
 		friendsRequestMapper.deleteByExample(fre);
 	}
 
 	@Transactional(propagation = Propagation.REQUIRED)
 	@Override
-	public void passFriendRequest(String sendUserId, String acceptUserId) {
-		saveFriends(sendUserId, acceptUserId);
-		saveFriends(acceptUserId, sendUserId);
-		deleteFriendRequest(sendUserId, acceptUserId);
+	public void passFriendRequest(String sendPhone, String acceptPhone) {
+		saveFriends(sendPhone, acceptPhone);
+		saveFriends(acceptPhone, sendPhone);
+		deleteFriendRequest(sendPhone, acceptPhone);
 		
-		Channel sendChannel = UserChannelRel.get(sendUserId);
+		Channel sendChannel = UserChannelRel.get(sendPhone);
 		if (sendChannel != null) {
 			// 使用websocket主动推送消息到请求发起者，更新他的通讯录列表为最新
 			DataContent dataContent = new DataContent();
@@ -229,19 +311,19 @@ public class UserServiceImpl implements UserService {
 	}
 	
 	@Transactional(propagation = Propagation.REQUIRED)
-	public void saveFriends(String sendUserId, String acceptUserId) {
+	public void saveFriends(String sendPhone, String acceptPhone) {
 		MyFriends myFriends = new MyFriends();
 		String recordId = sid.nextShort();
 		myFriends.setId(recordId);
-		myFriends.setMyFriendUserId(acceptUserId);
-		myFriends.setMyUserId(sendUserId);
+		myFriends.setmyFriendPhone(acceptPhone);
+		myFriends.setMyPhone(sendPhone);
 		myFriendsMapper.insert(myFriends);
 	}
 
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
-	public List<MyFriendsVO> queryMyFriends(String userId) {
-		List<MyFriendsVO> myFirends = usersMapperCustom.queryMyFriends(userId);
+	public List<MyFriendsVO> queryMyFriends(String phone) {
+		List<MyFriendsVO> myFirends = usersMapperCustom.queryMyFriends(phone);
 		return myFirends;
 	}
 
@@ -252,8 +334,8 @@ public class UserServiceImpl implements UserService {
 		com.imooc.pojo.ChatMsg msgDB = new com.imooc.pojo.ChatMsg();
 		String msgId = sid.nextShort();
 		msgDB.setId(msgId);
-		msgDB.setAcceptUserId(chatMsg.getReceiverId());
-		msgDB.setSendUserId(chatMsg.getSenderId());
+		msgDB.setacceptPhone(chatMsg.getReceiverId());
+		msgDB.setsendPhone(chatMsg.getSenderId());
 		msgDB.setCreateTime(new Date());
 		msgDB.setSignFlag(MsgSignFlagEnum.unsign.type);
 		msgDB.setMsg(chatMsg.getMsg());
@@ -271,15 +353,23 @@ public class UserServiceImpl implements UserService {
 
 	@Transactional(propagation = Propagation.SUPPORTS)
 	@Override
-	public List<com.imooc.pojo.ChatMsg> getUnReadMsgList(String acceptUserId) {
+	public List<com.imooc.pojo.ChatMsg> getUnReadMsgList(String acceptPhone) {
 		
 		Example chatExample = new Example(com.imooc.pojo.ChatMsg.class);
 		Criteria chatCriteria = chatExample.createCriteria();
 		chatCriteria.andEqualTo("signFlag", 0);
-		chatCriteria.andEqualTo("acceptUserId", acceptUserId);
+		chatCriteria.andEqualTo("acceptPhone", acceptPhone);
 		
 		List<com.imooc.pojo.ChatMsg> result = chatMsgMapper.selectByExample(chatExample);
 		
 		return result;
+	}
+
+
+@Override
+	public Users selectByPhone(String phone) {
+		Users users=new Users();
+		users.setPhone(phone);
+		return userMapper.selectOne(users);
 	}
 }

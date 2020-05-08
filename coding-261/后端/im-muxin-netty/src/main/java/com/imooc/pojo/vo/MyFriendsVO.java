@@ -1,16 +1,16 @@
 package com.imooc.pojo.vo;
 
 public class MyFriendsVO {
-    private String friendUserId;
+    private String friendphone;
     private String friendPhone;
     private String friendFaceImage;
     private String friendNickname;
     
-	public String getFriendUserId() {
-		return friendUserId;
+	public String getFriendmyPhone() {
+		return friendphone;
 	}
-	public void setFriendUserId(String friendUserId) {
-		this.friendUserId = friendUserId;
+	public void setFriendmyPhone(String friendphone) {
+		this.friendphone = friendphone;
 	}
 
 	public String getFriendPhone() {

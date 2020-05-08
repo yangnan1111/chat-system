@@ -13,5 +13,11 @@
     <result column="nickname" property="nickname" jdbcType="VARCHAR" />
     <result column="qrcode" property="qrcode" jdbcType="VARCHAR" />
     <result column="cid" property="cid" jdbcType="VARCHAR" />
+    <result column="age" property="age" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="profession" property="profession" jdbcType="VARCHAR" />
+    <result column="signname" property="signname" jdbcType="VARCHAR" />
+    <result column="background" property="background" jdbcType="VARCHAR" />
+    <result column="gender" property="gender" jdbcType="VARCHAR" />
   </resultMap>
 </mapper>

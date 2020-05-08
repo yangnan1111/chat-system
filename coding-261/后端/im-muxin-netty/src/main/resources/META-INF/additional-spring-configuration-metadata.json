@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.yang.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.yang.driver-class-name."
+    },
+    {
+      "name": "spring.datasource.yang.jdbc-url",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.yang.jdbc-url."
+    }
+  ] }

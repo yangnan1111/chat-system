@@ -1,0 +1,5 @@
+2020-04-22 03:30:31.891 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s19ms842µs800ns).
+2020-04-22 11:29:58.400 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h59m35s182ms457µs600ns).
+2020-04-22 13:21:57.658 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m29s210ms887µs900ns).
+2020-04-22 17:27:49.959 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m21s780ms119µs600ns).
+2020-04-22 20:09:07.662 [ HikariPool-1 housekeeper ] - [ WARN  ] [com.zaxxer.hikari.pool.HikariPool : 758 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m46s268ms785µs900ns).

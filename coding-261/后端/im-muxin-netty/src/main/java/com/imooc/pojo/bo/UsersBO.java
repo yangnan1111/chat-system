@@ -1,25 +1,23 @@
 package com.imooc.pojo.bo;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class UsersBO {
-    private String userId;
-    private String faceData;
+    private String phone;
     private String nickname;
-    
-	public String getUserId() {
-		return userId;
+
+	public String getPhone() {
+		return phone;
 	}
-	public void setUserId(String userId) {
-		this.userId = userId;
+
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
-	public String getFaceData() {
-		return faceData;
-	}
-	public void setFaceData(String faceData) {
-		this.faceData = faceData;
-	}
+
 	public String getNickname() {
 		return nickname;
 	}
+
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}

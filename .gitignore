@@ -1,0 +1,4 @@
+# Project exclude paths
+/coding-261/后端/im-muxin-netty/target/
+/coding-261/后端/im-netty-hello/target/
+/coding-261/后端/im-netty-mybatis/target/

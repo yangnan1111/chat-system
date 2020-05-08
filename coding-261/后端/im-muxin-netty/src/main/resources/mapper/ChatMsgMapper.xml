@@ -6,8 +6,8 @@
       WARNING - @mbg.generated
     -->
     <id column="id" property="id" jdbcType="VARCHAR" />
-    <result column="send_user_id" property="sendUserId" jdbcType="VARCHAR" />
-    <result column="accept_user_id" property="acceptUserId" jdbcType="VARCHAR" />
+    <result column="sendPhone" property="sendPhone" jdbcType="VARCHAR" />
+    <result column="acceptPhone" property="acceptPhone" jdbcType="VARCHAR" />
     <result column="msg" property="msg" jdbcType="VARCHAR" />
     <result column="sign_flag" property="signFlag" jdbcType="INTEGER" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />

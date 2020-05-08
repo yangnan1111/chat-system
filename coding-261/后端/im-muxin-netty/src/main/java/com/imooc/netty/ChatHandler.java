@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.netty.channel.group.ChannelGroup;
+import io.netty.channel.group.DefaultChannelGroup;
 import org.apache.commons.lang3.StringUtils;
 
 import com.github.pagehelper.util.StringUtil;
@@ -15,8 +17,8 @@ import com.imooc.utils.JsonUtils;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.channel.group.ChannelGroup;
-import io.netty.channel.group.DefaultChannelGroup;
+//import io.netty.channel.group.ChannelGroup;
+//import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
@@ -28,7 +30,7 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
 
 	// 用于记录和管理所有客户端的channle
-	public static ChannelGroup users = 
+	public static ChannelGroup users =
 			new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 	
 	@Override
